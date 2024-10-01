@@ -1,0 +1,13 @@
+.animate {
+  opacity: 0;
+  translate: 0 0.75rem;
+  transition: cubic-bezier(0, 0, 0.2, 1);
+  -webkit-transition: cubic-bezier(0, 0, 0.2, 1);
+  -moz-transition: cubic-bezier(0, 0, 0.2, 1);
+  -ms-transition: cubic-bezier(0, 0, 0.2, 1);
+  -o-transition: cubic-bezier(0, 0, 0.2, 1);
+}
+.animate.show {
+  opacity: 1;
+  translate: 0 0;
+}
